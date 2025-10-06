@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter e Find em Arrays de Objetos</title>
+    
+    <link rel="stylesheet" href="estilo_produtos.css"> 
+</head>
+<body>
+
+    <h1>Manipulação de Produtos com `filter` e `find`</h1>
+
+    <p><strong>Array Original:</strong></p>
+    <pre id="arrayOriginal"></pre>
+
+    <h2>1. Usando `filter` (Preço > 100)</h2>
+    <p>O <strong>filter</strong> cria um novo array contendo apenas os produtos com preço maior que R$ 100.</p>
+    <p class="resultado" id="produtosCaros"></p>
+
+    <h2>2. Usando `find` (id === 3)</h2>
+    <p>O <strong>find</strong> retorna o primeiro (e neste caso, único) objeto que tem o ID igual a 3.</p>
+    <p class="resultado" id="produtoEncontrado"></p>
+
+    <hr>
+
+    <script src="script_produtos.js"></script>
+
+</body>
+</html>

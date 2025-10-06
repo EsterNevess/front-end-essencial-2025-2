@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando com .push()</title>
+    
+    <link rel="stylesheet" href="estilo_carrinho.css"> 
+</head>
+<body>
+
+    <h1>Adicionando Itens ao Carrinho com `.push()`</h1>
+
+    <p>O array <strong>carrinho</strong> começa vazio e adicionamos 3 itens a ele.</p>
+
+    <h2>Código JavaScript:</h2>
+    <pre>
+const carrinho = [];
+
+// Usando .push() para adicionar múltiplos itens de uma só vez
+carrinho.push(
+    { nome: "Mouse Gamer", preco: 150 },
+    { nome: "Teclado Mecânico", preco: 300 },
+    { nome: "Monitor 24'", preco: 850 }
+);
+
+console.log("Carrinho Final:", carrinho);
+    </pre>
+
+    <h2>Resultado Final do Carrinho:</h2>
+    <p class="resultado" id="carrinhoFinal"></p>
+
+    <script src="script_carrinho.js"></script>
+
+</body>
+</html>

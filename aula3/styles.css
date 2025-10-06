@@ -1,4 +1,3 @@
-css 
 * {
     margin: 0;
     /* margem - espaçamento pra fora do conteúdo */
@@ -18,9 +17,11 @@ css
     /* justify-content: space-around; 
      justify-content: space-between; 
      justify-content: space-evenly; */
-     flex-wrap: wrap;
+     /* flex-wrap: wrap; */
      padding: 1rem;
      justify-content: center;
+     flex-direction: row;
+     flex-direction: column;
 }
 
 .box {

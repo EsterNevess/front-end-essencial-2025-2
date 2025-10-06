@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplicação com .map()</title>
+    
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1>Exemplo de Array com .map()</h1>
+    <p>O array original é: <span id="arrayOriginal"></span></p>
+    <p>O novo array (multiplicado por 3) é: <span id="arrayNovo"></span></p>
+
+    <hr>
+
+    <h2>Código JavaScript:</h2>
+    <pre>
+const numeros = [2, 5, 8, 10, 15];
+
+// Cria um novo array onde cada 'numero' é multiplicado por 3
+const numerosMultiplicados = numeros.map(numero => numero * 3);
+
+// Exibe os arrays no console e na página
+// ...
+    </pre>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

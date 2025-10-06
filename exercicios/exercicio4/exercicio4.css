@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização do Quadrado */
+#quadrado {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db; /* Cor inicial: Azul */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /* Transição suave para a mudança de cor */
+    transition: background-color 0.5s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilização do Botão */
+#botaoMudarCor {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2ecc71; /* Cor verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#botaoMudarCor:hover {
+    background-color: #27ae60;
+}
